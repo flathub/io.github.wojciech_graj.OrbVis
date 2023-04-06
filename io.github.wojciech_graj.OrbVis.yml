@@ -25,5 +25,5 @@ modules:
     sources:
       - type: archive
         url: https://github.com/wojciech-graj/OrbVis/releases/download/v0.3.0/OrbVis-0.3.0.zip
-        sha256: 09f99e06f67e5c4dfc320e917d7c0ef0147b150582fda9aaccf33652d8b09e4a
+        sha256: bf128c376cecbec761eca9cd776444827f02f022c4910ee9429a62c2b465237e
         strip-components: 0
