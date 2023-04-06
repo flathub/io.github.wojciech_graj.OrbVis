@@ -24,6 +24,6 @@ modules:
       - install -D -m755 ../flatpak/io.github.wojciech_graj.OrbVis.desktop /app/share/applications/io.github.wojciech_graj.OrbVis.desktop
     sources:
       - type: archive
-        url: https://github.com/wojciech-graj/OrbVis/releases/download/v0.2.3/orbvis-0.2.3-src-minimal.zip
-        sha256: f8d45a91308c5cf7965ba39d72362d8f263315ffb793d5d78cf4821e2c5040b4
+        url: https://github.com/wojciech-graj/OrbVis/releases/download/v0.3.0/OrbVis-0.3.0.zip
+        sha256: 09f99e06f67e5c4dfc320e917d7c0ef0147b150582fda9aaccf33652d8b09e4a
         strip-components: 0
