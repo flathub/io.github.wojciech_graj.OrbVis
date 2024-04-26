@@ -1,6 +1,6 @@
 app-id: io.github.wojciech_graj.OrbVis
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: orbvis
 finish-args:
@@ -10,12 +10,6 @@ finish-args:
   - --share=network
   - --device=dri
 modules:
-  - name: cglm
-    buildsystem: cmake-ninja
-    sources:
-      - type: archive
-        url: https://github.com/recp/cglm/archive/refs/tags/v0.8.6.tar.gz
-        sha256: 6f6c9f7ed150b6c691774cc2750a79f363f0aa9acadade85e5ff8bb5b36eac28
   - name: orbvis
     buildsystem: meson
     post-install:
@@ -24,6 +18,6 @@ modules:
       - install -D -m755 ../flatpak/io.github.wojciech_graj.OrbVis.desktop /app/share/applications/io.github.wojciech_graj.OrbVis.desktop
     sources:
       - type: archive
-        url: https://github.com/wojciech-graj/OrbVis/releases/download/v0.3.0/OrbVis-0.3.0.zip
-        sha256: bf128c376cecbec761eca9cd776444827f02f022c4910ee9429a62c2b465237e
+        url: https://github.com/wojciech-graj/OrbVis/releases/download/v0.3.1/OrbVis-0.3.1.zip
+        sha256: ad76553c5af49bcc5cd5a8768796f2d043c49dab11e8bb02aaa3c58d9ffe1430
         strip-components: 0
